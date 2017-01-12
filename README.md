@@ -18,4 +18,3 @@ A trivial command line client (**tmrc**) based on the api also supplied.
 Most of API documented using godoc. To view the inline documentation use:
 
     godoc github.com/sergevs/GoMailRuCloud/Api
-    
