@@ -44,6 +44,7 @@ type FileList struct {
 		Rev  int
 		Type string
 		Home string
+		Hash string
 		List []ListItem
 	}
 }

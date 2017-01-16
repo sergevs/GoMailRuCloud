@@ -41,6 +41,6 @@ func (c *MailRuCloud) PrintFileStat(path string) (err error) {
 	} else {
 		ft = fmt.Sprintf("%.3s %2d %5d", t.Month(), t.Day(), t.Year())
 	}
-	fmt.Printf("%-6s %11d %-12s %-13s\n", i.Kind, i.Size, ft, i.Name)
+	fmt.Printf("%-6s %11d %-12s %-20s hash:%s\n", i.Kind, i.Size, ft, i.Name, i.Hash)
 	return
 }
