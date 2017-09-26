@@ -14,7 +14,5 @@ A trivial command line client (**tmrc**) based on the api also supplied.
     export MAILRU_PASSWORD=<your mail.ru password>
     ./tmrc -help
 
-# Documentation
-Most of API documented using godoc. To view the inline documentation use:
-
-    godoc github.com/sergevs/GoMailRuCloud/Api
+# API reference
+See also [GoMailRuCloud API documentation](https://godoc.org/github.com/sergevs/GoMailRuCloud/Api)
