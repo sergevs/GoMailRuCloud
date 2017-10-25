@@ -27,7 +27,7 @@ func (c *MailRuCloud) List(path string) (list *FileList, err error) {
 	return
 }
 
-// PrintFileList is a convenient method method to prin files list at the mail.ru cloud.
+// PrintFileList is a convenient method method to print files list at the mail.ru cloud.
 func (c *MailRuCloud) PrintFileList(path string) (err error) {
 	l, err := c.List(path)
 	if err != nil {

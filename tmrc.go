@@ -69,7 +69,7 @@ func main() {
 		if len(os.Args) != 3 {
 			log.Fatal("not enougth arguments")
 		}
- 		err = c.Cat(os.Args[2])
+		err = c.Cat(os.Args[2])
 	case "-get":
 		var dst string
 		if len(os.Args) > 3 {

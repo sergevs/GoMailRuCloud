@@ -25,7 +25,7 @@ func (c *MailRuCloud) Cat(src string) (err error) {
 		Logger.Println(err)
 		return
 	} else {
-	  _, err = io.Copy(os.Stdout, r.Body)
+		_, err = io.Copy(os.Stdout, r.Body)
 		if err != nil {
 			Logger.Println(err)
 			return
